@@ -1,104 +1,209 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-      <header class="bg-purple text-white text-center p-4">
-        <h1>EmpowerHer:Education for Girls</h1>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">EmpowerHer</a>
-          <button
-          class="navbar-toggle"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav">
-          <span class="navbar-toggle-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav"></div>
-          <ul class="navbar-nav ml-auto"></ul>
-          <li class="nav-item"><a class="nav-link"
-            href="#overview">Project</a></li>
-            <li class="nav-item"><a class="nav-link"
-              href="#stories">Impact</a></li>
-              <li class="nav-item"><a class="nav-link"
-                href="#resources">Resources</a></li>
-                <li class="nav-item"><a class="nav-link"
-                  href="#mentorship">Mentorship</a></li>
-                  <li class="nav-item"><a class="nav-link"
-                    href="#community">Community</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#donate">Get Involved</a></li>
-                    <li class="nav-item"><a class="nav-link"
-                      href="#contact">Contact</a></li>
-        </div>
-      </nav>
-      <main class="containermy-4">
-        <section id="overview" class="mb-5">
-          <h2>Project Overview</h2>
-          <p>Our projects scholarships,mentorship,and leadership development for girls in underserved regions.We aim to empower young women by increasing access to quality educaation and fostering community support for girls' learning.</p>
-        </section>
-        <section id="stories"class="mb-5">
-          <h2>Impact Stories</h2>
-          <div class="media">
-            <img src="https://via.placeholder.com/150" class="mr-3 rounded" alt="Success">
-            <div class="media-body">
-              <h5 class="mt-0">Amina's Story</h5>
-              Onces denied an education ,Amina is now pursuing engineering thanks to our scholarship and mentorship support.
-            </div>
-          </div>
-        </section>
-        <section id="mentorship" lass="mb-5">
-          <h2>Education Resources</h2>
-          <ul>
-            <li><a href="#">Free Online Courses</a></li>
-            <li><a href="#">STEM Learning Reasouces</a></li>
-            <li><a href="#">Scholarship Application Guide</a></li>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="pizza.css" />
+  <style></style>
+  <title>Pizza Order Form</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Pizza Up</a>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section41">Order</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#section3">About</a></li>
+                <li><a href="#section42">Contact</a></li>
+              </ul>
+            </li>
           </ul>
-        </section>
-        <section id="mentorship" class="mb-5">
-          <h2>Community Engagement</h2>
-          <li>Lifestyle Skills Trainig Workshop</li>
-          <li>Avarness Campaigns</li>
-          <li>Teacher Training in Gender Sensitivity</li>
-          <li>Ifrastructure Development Projects</li>
-        </section>
-        <section id="donate" class="mb-5">
-          <h2>Donation & Volunteer</h2>
-          <button class="btn btn-primary mr-2" onclick="alert('Thank you for your interest!')">Donate Now</button>
-        </section>
-        <section id="blog" class="mb-5">
-          <h2>Blog & Forum </h2>
-          <div id="blog-posts" class="mb-3">
-            <p>No posts yet.Stay tuned!</p>
-          </div>
-          <div class="form-online">
-            <input type="text" id="new-Posts class="form-control mr-2"placeholder="Share your thoughts.../>
-            <button class="btn btn-success" onclick="addPost()">Post</button>
-          </div>
-        </section>
-        <section id="contact" class="mb-5">
-          <h2>Contact Us</h2>
-          <p>Email:info@girlseducation.org </p>
-          <p>Phone:+245 712 345678</p>
-        </section>
-      </main>
-      <footer class="bg-light text-center py-3">
-        <p>&copy;2025 EmpowerHer Initiative.All rights reserved.</p>
-      </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="section1" class="container-fluid">
+    <h1 class="glow">pizza Up</h1>
+
+    <p id="p1">
+      welcome to pizz up your first food
+    </p>
+
+    <img src="./img/p1.gif" alt="" srcset="" />
+  </div>
+
+  <div id="section3" class="container-fluid">
+    <h2 id="call">About</h2>
+    <p id="p2">
+      Over the last few years we have been dedicated to serving you the best
+      pizza in Kenya. and now we bring you the latest in our chef menu click
+      the button bellow to veiw.
+    </p>
+
+    <div id="overlay" onclick="off()">
+      <div id="text">
+        <div class="col-lg-6">
+          <img src="./img/p1.jpeg" alt="" srcset="" class="img" style="width: 366;" />
+        </div>
+        <div class="col-3">
+          <img src="./img/p2.jpeg" alt="" srcset="" class="img" style="width: 366;" />
+          <p>this is pop</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <br /><br />
+        <img src="./img/p2.jpg" alt="" srcset="" class="img" style="width: 366px;" />
+      </div>
+      <div class="col-xs-1-12">
+        <br /><br />
+        <img src="./img/p3.jpg" alt="" srcset="" class="img" />
+      </div>
+    </div>
+
+    <div style="padding:20px">
+      <h2>
+        <button class="btn btn-primary" onclick="on()">Veiw</button>
+      </h2>
+    </div>
+  </div>
+  <div id="section41" class="container-fluid">
+    <h1 class="text-center">Place Your Order Today</h1>
+    <p id="message" class="alert alert-danger"></p>
+    <p id="success" class="alert alert-success"></p>
+
+    <form action="">
+      <select name="pizza" id="pizza" class="form-control my-3">
+        <option value="select-pizza">Select Pizza</option>
+        <option value="pepperoni">Pepperoni Pizza</option>
+        <option value="Neapolitan">Neapolitan Pizza</option>
+        <option value="Sicilian">Sicilian Pizza</option>
+        <option value="new-york">New York-Style Pizza</option>
+      </select>
+
+      <select name="size" id="size" class="form-control my-3">
+        <option value="select-size">Select Pizza Size</option>
+        <option value="1000">Large</option>
+        <option value="900">Medium</option>
+        <option value="600">Small</option>
+      </select>
+
+      <input type="number" class="form-control my-3" placeholder="Select Quantity" id="quantity" />
+
+      <select name="crust" id="crust" class="form-control my-3">
+        <option value="select-crust">Select Pizza Crust</option>
+        <option value="200">Crispy</option>
+        <option value="400">Stuffed</option>
+        <option value="300">Gluten Free</option>
+      </select>
+
+      <select name="toppings" id="toppings" class="form-control my-3">
+        <option value="select-toppings">Select Pizza Toppings</option>
+        <option value="400">Onions</option>
+        <option value="500">Sausage</option>
+        <option value="600">Bacon</option>
+        <option value="300">Extra Cheese</option>
+      </select>
+
+      <input type="submit" class="btn btn-primary my-3 text-center" value="order" id="order" />
+    </form>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Quantity</th>
+          <th scope="col">Pizza</th>
+          <th scope="col">Size</th>
+          <th scope="col">Crust</th>
+          <th scope="col">Toppings</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <select name="delivery-selection" id="delivery-selection" class="form-control my-3">
+      <option value="no-delivery">I don't want delivery</option>
+      <option value="delivery">I want delivery</option>
+    </select>
+
+    <input type="text" class="form-control" placeholder="Enter Delivery Location" id="delivery-location" />
+    <input type="submit" class="btn btn-success" value="Complete Order" id="complete" />
+  </div>
+  <div id="section42" class="container-fluid">
+    <h2 id="call">Contuct Us</h2>
+    <p id="p2">
+      call:0713849398 email: or treasuremargie@gmail.com
+    </p>
+    <br /><b></b>
+    <p id="call">Also on</p>
+    <div class="icons">
+      <img src="./img/social_icons/twitter.png"
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="twitter" />
+      <img src="./img/social_icons/dribble.png"
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="dribble" />
+      <img src="./img/social_icons/facebook.png"
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="facebook" />
+      <img src="./img/social_icons/g_plus.png"
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="" />
+      <img src="./img/social_icons/skype.png"
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="" />
+      <img src="./img/social_icons/you_tube.png"
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="" />
+      <img src="./img/social_icons/behance.png"
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="" />
+      <img src="./img/social_icons/pinterest.png"
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="" />
+      <img src="./img/social_icons/flickr.png"
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="" />
+    </div>
+  </div>
+  <script>
+    function on() {
+      document.getElementById("overlay").style.display = "block";
+    }
+
+    function off() {
+      document.getElementById("overlay").style.display = "none";
+    }
+  </script>
+  <footer>
+    <p id="p3">
+      &copy creator Treasure Margie
+    </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="pizza.js"></script>
+</body>
+
 </html>
