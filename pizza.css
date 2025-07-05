@@ -1,0 +1,148 @@
+body {
+    position:relative;
+}
+ .navbar {
+    background-color: yellow;
+    color: gainsboro;
+ }
+ #section{
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #ff6347;
+ }
+ #p1 {
+font-family: 'Tangarine';
+padding-top: 100px;
+font-weight: bold;
+font-size: xx-large;
+
+text-align: center;
+ }
+ #p2 {
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    text-align: center;
+ }
+ #p3{
+    font-weight:bold;
+    color: #fff;
+    text-align: center;
+ }
+ #call,h2{
+    text-align: center;
+    margin-top: 2rem;
+    color: tomato;
+ }
+ button{
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+
+ }
+ #section3{
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #fff;
+ }
+
+ #section41{
+    padding-top: 50px;
+    height: 700px;
+    color: #fff;
+    background-color: #ff6347;
+    backface-visibility: hidden;
+ }
+ #section42{
+    padding-top: 50px;
+    height: 500px;
+    background-color: #fff;
+ }
+ /*glow text area*/
+ .glow{
+    font-family: 'Tangerine';
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+ }
+ @-webkit-keyframes glow{
+    from{
+        text-shadow:0 0 10px #fff,0 0 20px #fff,0 0 30px #ffa500,0 0 40px #ffa500,0 0 50px #ffa500,0 0 50px #ffa500,0 0 70px #ffa500;
+
+    }
+    to{
+        text-shadow:0 0 20px #fff,0 0 30px #ff6347,0 0 40px #ff6347,0 0 50px #ff6347,0 0 60px #ff6347,0 0 0 70px #ff6347,0 0 0 80px #ff6347;
+    }
+ }
+ /*end of glow text area*/
+ #overlay{
+    position:fixed;
+    display:none;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(0,0,0,0.5);
+    z-index:2;
+    cursor: pointer;
+ }
+ #text{
+
+ }
+.img{
+    width: 366px;
+    height: 300px;
+}
+footer{
+    height:30px;
+    color:#fff;
+    background-color:black;
+} 
+.icons{
+    height:150px;
+    margin-top:20px;
+    width:100%;
+    text-align:center;
+    padding:10px;
+    position:relative;
+}
+/*section 41 form area*/
+#message,#success{
+    display:none;
+}
+form{
+    width:40%;
+    margin:0 auto;
+}
+#order{
+    margin:0 auto;
+}
+#delivery-location{
+    width:40%;
+    margin:0 auto;
+    text-align:center;
+    border:1px solid green;
+    display:none;
+}
+#delivery-selection{
+    width:20%;
+    margin: 0 auto;
+    text-align:center;
+}
+.btn{
+    display:block;
+    margin: 30px auto;
+}
+/*end*/
+
+
+

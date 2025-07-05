@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <META name="viewport"content="width=device-width,initial-scale=1.0"/>
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.mi.cssquot;"/>
+        <script
+        src="http://fonts.googleapis.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap&quot';rel="sylesheet">
+        <link rel="stylesheet" href="pizza.css"/>
+        <script src="pizza.js"></script>
+        <title>Pizza Order Form</title>
+    </head>
+    <body data-spy="scroll" data-target=".navbar"  data-offset="100">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Pizza Up</a>
+                </div>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="navbar-nav">
+                        <li><a href="#section1">Home</a></li>
+                        <li><a href="#section2">Order</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#section3">About</a></li>
+                                <li><a href="#section42"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="sectioon1" class="container-fluid">
+            <h1 class="glow">pizza Up</h1>
+            <p id="p1">
+                Welcome to pizz up your first food 
+            </p>
+            <img src="./img/p1.gif" alt="srcet="/>
+        </div>
+        <div id="section3" class="container-fluid">
+            <h2 id="call">About</h2>
+            <p id="p2">
+                Over the last few years we have been dedicatedto serving you the best pizza in Kenya.and now we bring you the lastest in our chef menu click the button bellow to view.
+            </p>
+            <div id="overlay"onclick="off()">
+                <div id="text">
+                    <div class="col-lg-6">
+                        <img src="./immg/p1.jpeg"alt="srcset=" class="img" style="width: 366;"/>
+                        <p>Pepperoni</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <img src="./img/p2.jpeg" alt="srcset" class="img" style="width: 360px;"/>
+            <p>Nepolitan pizza</p>
+        </div>
+        <div class="col-ig-6">
+            <br /><br/>
+            <img src="./img/p3.jpg" alt="srcset" class="img" style="width: 366px;"/>
+            <p>Sicilian</p>
+        </div>
+        <div class="col-xs-1-12">
+            <h2>
+                <button class="btn btn-primary" onclick="on()">View</button>
+            </h2>
+        </div>
+        <div id="section41" class="container-fluid">
+            <h1 class="text-center">Place Your Order</h1>
+            <p id="message" class="alert-alert-danger"></p>
+            <p id="success" class="alert-alert-success"></p>
+        </div>
+        <form action="">
+            <select name="pizza" id="pizza" class="from-control my-3">
+                <option value="select-pizza">Selection Pizza</option>
+                <option value="pepperoni">Pepperoni Pizza</option>
+                <option value="Nepolitan">Nepolitan Pizza</option>
+                <option value="Sicilian">Sicilian Pizza</option>
+                <option value="New-york">New-york</option>
+            </select>
+            <select name="size" id="size" class="from-control my-3">
+                <option value="select-size">Select Pizza Size</option>
+                <option value="1000">Large</option>
+                <option value="900">Medium</option>
+                <option value="600">Small</option>
+            </select>
+            <input type="number" class="from-control my-3" placeholder="Select Quality" id="quality"/>
+            <select name="crust" id="crust" class="form-control my-3">
+                <option value="select-crust">Select Pizza Crust</option>
+                <option value="200">Crispy</option>
+                <option value="400">Stuffed</option>
+                <option value="300">Gluten</option>
+            <select name="topping" id="topping" class="form-control my-3"></select>
+            <option value="select-toppings">Select Pizza Toppings</option>
+            <option value="400">Onions</option>
+            <option value="500">Sausages</option>
+            <option value="600">Bacon</option>
+            <option value="300">Extra Cheese</option>
+            </select>
+            <input type="submit" class="btn btn-primary my-3 text-center" value="order" id="order"/>
+        </form>
+        <table class="table">
+            <thread>
+                <tr>
+                    <th scope="col">Quality</th>
+                    <th scope="col">Pizza</th>
+                    <th scope="col">Size</th>
+                    <th scope="col">Crust</th>
+                    <th scope="col">Topping</th>
+                    <th scope="col">Total</th>
+                </tr>
+            </thread>
+            <tbody></tbody> 
+        </table>
+        <select name="delivery-selection" id="delivery-selection" class="form-control my-3">
+            <option value="no-delivery">i dont want delivery</option>
+            <option value="delivery">i want delivery</option>
+        </select>
+        <input type="text" class="form-control" placeholder="Enter Delivery Location" id="delivery-location"/>
+        <input type="submit" class="btn btn-success" value="Complete Order" id="Complete"/>
+        <div id="selection42" class="container-fluid">
+            <h2 id="call">Contact Us</h2>
+            <p id="p2">
+                call:0798734442 email:or nugari100@.gmail.com 
+            </p>
+        <br/><b></b>            </p>
+        <p id="call">Also on</p>
+        <div class="icons">
+            <img src="./img/social_icons/twitter.png"
+            class="img-fluid${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"alt="twitter"/>
+            <img src="./img/social_icons/dribble.png"
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="dribble"/>
+            <img src="./img/social_icons/facebook.png"
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="facebook"/>
+            <img src="./img/social_icons/g_plus.png"\
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""/>
+            <img src="./img/social_icons/skye.png"
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-left,rounded-circle|}" alt=""/>
+            <img src="./img/social_icons/youtube.png"
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""/>
+            <img src="./img/social_icons/behance/png"
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""/>
+            <img src="./img/social_icons/pinterest.png"
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""/>
+        </div>
+
+        </div>
+        <script>
+            function off(){
+                document.getElementById("overlay").style.display="none";
+            }
+        </script>
+        <footer>
+            <p id="p3">
+                &copy creater joseph nganga
+            </p>
+        </footer>
+        <script src="https://code.jquery-3.4.1.slim.min.js&quot";
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"  crossorigin="anonymous"></script>
+        <script
+        src="http://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js&quot";
+        integrity="sha384-Q6E9RHvblyZFJoft+2mJbHaEWldvl90Yy5n3zV9zzTtml3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script
+        src="https.//stackpath.bootstrapcdn.com/booststrap/4.4.1/js/bootstrap.min.js&quot";
+        integrity="sha384- wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4lh7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    </body>
+     </html>
