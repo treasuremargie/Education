@@ -65,4 +65,3 @@ complete.addEventListener("click",function(e)){
         alert(`Your order will be delivered at${meso}for an extra Ksh200`)
     }
 }
-
