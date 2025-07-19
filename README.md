@@ -1,10 +1,12 @@
-#PIZZA UP
-##TECHNOLOGIES USED.
+# PIZZA UP
+<img scr="./2.png" alt="">
+
+## TECHNOLOGIES USED.
 *html
 *css
 *Javascript
 *boostrap
-#FUNCTION OF THIS WEBSITE.
+### FUNCTION OF THIS WEBSITE.
 Instead of downlowding an app just to order pizza it is easier to use a website that does not take you through a long process of loging in and  searching for a certain product.
 #REASONS FOR CREATING THE APP.
 *Save time of going to buy in person. 
@@ -12,7 +14,7 @@ Instead of downlowding an app just to order pizza it is easier to use a website 
 *Creating a pizza app also boosts sales when you send the consumer notifications for discounts and special offers ,if you dont have app it will be hard for a consumer to know when there special offers unless they come to the shop physically.
 *This also helps to avoid human errors and incress speed.
 *After a consure has purchased there order they are able to track there order thus building trust between consumer and seller.
-####DESCRIPTION 
+#### DESCRIPTION 
 *Choose the size of pizza you want.
 *Choose what kind of crust you would like e.g Cripsy,Stuffed,Gluten-free.
 *Choose the toppings you want on your Pizza.
