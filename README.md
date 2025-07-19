@@ -1,11 +1,11 @@
 # PIZZA UP
-<img scr="./2.png" alt="">
+<img src="./3.png" alt="">
 
 ## TECHNOLOGIES USED.
-*html
-*css
-*Javascript
-*boostrap
+* html
+* css
+* Javascript
+* Boostrap
 ### FUNCTION OF THIS WEBSITE.
 Instead of downlowding an app just to order pizza it is easier to use a website that does not take you through a long process of loging in and  searching for a certain product.
 #REASONS FOR CREATING THE APP.
