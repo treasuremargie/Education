@@ -1,6 +1,6 @@
 # PIZZA UP
 <img src="./3.png" alt="">
-<img src="[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)">
+<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge" alt="">
 
 ## TECHNOLOGIES USED.
 * html
@@ -9,7 +9,7 @@
 * Boostrap
 ### FUNCTION OF THIS WEBSITE.
 Instead of downlowding an app just to order pizza it is easier to use a website that does not take you through a long process of loging in and  searching for a certain product.
-#REASONS FOR CREATING THE APP.
+# REASONS FOR CREATING THE APP.
 *Save time of going to buy in person. 
 *Your eble to place an order at any given time .
 *Creating a pizza app also boosts sales when you send the consumer notifications for discounts and special offers ,if you dont have app it will be hard for a consumer to know when there special offers unless they come to the shop physically.
